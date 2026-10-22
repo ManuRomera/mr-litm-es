@@ -1,0 +1,45 @@
+{
+  "id": "mr-litm-es",
+  "title": "MR- Legend in the Mist en español",
+  "description": "Traducción al español de España del sistema oficial Legend in the Mist (mist-engine-fvtt): interfaz, hojas, diálogos, chat, visitas guiadas, ajustes y ventana «Cómo jugar».",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Manu Romera",
+      "url": "https://github.com/ManuRomera"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "mist-engine-fvtt",
+        "type": "system",
+        "compatibility": {
+          "minimum": "14.5.4"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/mr-litm-es.js"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "system": "mist-engine-fvtt"
+    }
+  ],
+  "url": "https://github.com/ManuRomera/mr-litm-es",
+  "manifest": "https://github.com/ManuRomera/mr-litm-es/releases/latest/download/module.json",
+  "download": "https://github.com/ManuRomera/mr-litm-es/releases/latest/download/mr-litm-es.zip",
+  "bugs": "https://github.com/ManuRomera/mr-litm-es/issues",
+  "readme": "https://github.com/ManuRomera/mr-litm-es#readme",
+  "changelog": "https://github.com/ManuRomera/mr-litm-es/blob/main/CHANGELOG.md",
+  "license": "MIT"
+}
