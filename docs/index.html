@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MR- Legend in the Mist en español</title>
+<meta name="description" content="Traducción al español de España del sistema oficial Legend in the Mist para Foundry VTT: interfaz, hojas, diálogos, chat y Cómo jugar.">
+<style>
+:root { --bg:#141813; --panel:#1d241b; --ink:#ece9dc; --mut:#a3ab98; --acc:#d6b26e; --grn:#8fb98a; }
+@media (prefers-color-scheme: light) { :root { --bg:#f4f1e8; --panel:#fff; --ink:#1c241a; --mut:#5c6657; --acc:#8a6420; --grn:#3f6d3a; } }
+* { box-sizing:border-box; } body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.55 'Iowan Old Style',Baskerville,Georgia,serif; }
+.hero { min-height:80vh; display:grid; align-content:end; padding:8vh 6vw 7vh; background:linear-gradient(0deg,var(--bg) 0%,rgba(20,24,19,.15) 55%,rgba(20,24,19,.55) 100%),url(img/banner.webp) center/cover; }
+.hero small { font:600 .8rem 'Avenir Next',Arial,sans-serif; letter-spacing:.3em; text-transform:uppercase; color:var(--acc); }
+.hero h1 { margin:.2em 0; font:700 clamp(2.6rem,8vw,5.8rem)/.95 Baskerville,Georgia,serif; color:#fff; }
+.hero h1 span { color:var(--grn); display:block; font-style:italic; font-weight:400; } .hero p { max-width:36em; font-size:1.2rem; color:#e6e8dc; }
+.btns { display:flex; flex-wrap:wrap; gap:.8rem; margin-top:1.2rem; }
+a.b { display:inline-block; padding:.8rem 1.3rem; border:1px solid var(--acc); color:var(--acc); text-decoration:none; font:600 .85rem 'Avenir Next',Arial,sans-serif; letter-spacing:.12em; text-transform:uppercase; }
+a.b.p { background:var(--acc); color:#141813; } a.b:focus-visible, a.b:hover { outline:2px solid var(--grn); outline-offset:2px; }
+main { max-width:60rem; margin:0 auto; padding:4rem 6vw; } h2 { font:700 1.6rem Baskerville,Georgia,serif; color:var(--acc); border-top:1px solid var(--mut); padding-top:.8rem; margin-top:3rem; }
+.grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(15rem,1fr)); gap:1rem; } .card { background:var(--panel); padding:1rem 1.2rem; border-top:3px solid var(--acc); font-family:'Avenir Next',Arial,sans-serif; font-size:.95rem; } .card b { display:block; color:var(--grn); font-size:.75rem; letter-spacing:.2em; text-transform:uppercase; margin-bottom:.3rem; }
+img.s { width:100%; border:1px solid var(--mut); margin:.6rem 0; }
+code { background:var(--panel); padding:.7rem 1rem; display:block; overflow-x:auto; font:.85rem Menlo,monospace; color:var(--grn); }
+footer { text-align:center; padding:3rem 1rem; color:var(--mut); font:.8rem 'Avenir Next',Arial,sans-serif; }
+</style>
+</head>
+<body>
+<header class="hero">
+  <small>Traducción no oficial · Foundry VTT v13 · v14</small>
+  <h1>Legend in the Mist<span>en español</span></h1>
+  <p>El sistema oficial de Foundry, en español de España: interfaz revisada, textos fijos, diálogos, chat y la ventana «Cómo jugar».</p>
+  <div class="btns">
+    <a class="b p" href="https://github.com/ManuRomera/mr-litm-es/releases/latest">Última versión</a>
+    <a class="b" href="https://github.com/ManuRomera/mr-litm-es">Repositorio</a>
+  </div>
+</header>
+<main>
+  <h2>Qué traduce</h2>
+  <div class="grid">
+    <div class="card"><b>Interfaz</b>487 cadenas del sistema, unificadas y corregidas: Narrador, Poder y Poderío, Gesta, Compañía…</div>
+    <div class="card"><b>Textos fijos</b>Ajustes, atajos, menús del editor, diálogos y avisos que el sistema escribe en inglés.</div>
+    <div class="card"><b>Cómo jugar</b>La ventana de reglas, traducida entera.</div>
+    <div class="card"><b>Visitas guiadas</b>Las del Narrador y la del héroe, más acampada, acción de grupo y sacrificio.</div>
+  </div>
+  <h2>Así se ve</h2>
+  <img class="s" src="img/hoja.webp" alt="Hoja de personaje en español">
+  <img class="s" src="img/tirada.webp" alt="Diálogo de tirada en español">
+  <img class="s" src="img/como-jugar.webp" alt="Ventana Cómo jugar en español">
+  <h2>Instalar en Foundry</h2>
+  <p>Necesitas el sistema <i>Legend In The Mist</i> (≥ 14.5.4). En <b>Add-on Modules → Install Module → Manifest URL</b>:</p>
+  <code>https://github.com/ManuRomera/mr-litm-es/releases/latest/download/module.json</code>
+  <p>Activa el módulo en tu mundo y pon Foundry en <b>Español</b> (Configuración → Idioma).</p>
+</main>
+<footer>MIT · © Manu Romera · Obra independiente y no oficial. Legend in the Mist es marca de Son of Oak Games.</footer>
+</body>
+</html>
