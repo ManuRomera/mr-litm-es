@@ -2,6 +2,8 @@
 
 Traducción completa al español de España del sistema oficial **Legend in the Mist** (`mist-engine-fvtt`) para Foundry VTT v13 y v14.
 
+[![Descargas](https://raw.githubusercontent.com/ManuRomera/ManuRomera/main/badges/descargas/mr-litm-es.svg)](https://github.com/ManuRomera/mr-litm-es/releases)
+
 **Instalación:** Add-on Modules → Install Module → Manifest URL:
 
 ```
