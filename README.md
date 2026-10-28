@@ -3,6 +3,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ManuRomera"><img alt="Manu Romera · Digital RPG Design" src="https://raw.githubusercontent.com/ManuRomera/ManuRomera/main/badges/mr-firma.svg" height="28"></a>
   <a href="https://github.com/ManuRomera/mr-litm-es/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/ManuRomera/mr-litm-es?style=for-the-badge&color=8fb98a&label=release"></a>
   <img alt="Foundry VTT v13 y v14" src="https://img.shields.io/badge/Foundry%20VTT-v13%20%C2%B7%20v14-d6b26e?style=for-the-badge">
   <a href="https://github.com/ManuRomera/mr-litm-es/releases"><img alt="Descargas" src="https://raw.githubusercontent.com/ManuRomera/ManuRomera/main/badges/descargas/mr-litm-es.svg"></a>
